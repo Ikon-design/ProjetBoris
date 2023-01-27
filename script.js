@@ -9,7 +9,8 @@ function lancezMoi(){
     container.style.backgroundColor = '#'+(Math.random()*0xFFFFFF<<0).toString(16)
     let matchrer = Math.floor(Math.random() * 3)
     container.style.textAlign = tablele[matchrer]
-    rick.style.transform = "Rotate(" +Math.floor(Math.random() * 360) + "deg)"
+    console.log("Rotate(" + Math.floor(Math.random() * 360) + "deg)")
+    rick.style.transform = "Rotate(" + Math.floor(Math.random() * 360) + "deg)"
 
 }
 

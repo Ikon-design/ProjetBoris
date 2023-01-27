@@ -15,4 +15,4 @@ function lancezMoi(){
     text.style.fontSize = Math.floor(Math.random() * 250) + "px"
 }
 
-setInterval(lancezMoi, 1000)
+setInterval(lancezMoi, 100)

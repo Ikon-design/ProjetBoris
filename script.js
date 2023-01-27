@@ -3,7 +3,7 @@ let text = document.getElementById("title")
 let rick = document.getElementById("rick")
 
 let tablele = ["left", "center", "right"]
-
+console.log("rz")
 function lancezMoi(){
     let sound = new Audio("./sound.mp3")
     sound.play()

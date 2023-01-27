@@ -11,7 +11,7 @@ function lancezMoi(){
     console.log(matchrer)
     console.log(tablele)
     console.log(tablele[matchrer])
-    container.style.textAlign = tablele[matchrer].toString()
+    container.style.textAlign = tablele[matchrer]
 }
 
 setInterval(lancezMoi, 100)

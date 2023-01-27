@@ -9,6 +9,7 @@ function lancezMoi(){
     container.style.backgroundColor = '#'+(Math.random()*0xFFFFFF<<0).toString(16)
     let matchrer = Math.floor(Math.random() * 3)
     container.style.textAlign = tablele[matchrer]
+    rick.style.rotate = Math.floor(Math.random() * 360) + "%"
 }
 
 setInterval(lancezMoi, 100)

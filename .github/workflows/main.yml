@@ -14,4 +14,4 @@ jobs:
         server: files.000webhost.com
         username: borislebg
         password: Re65kJQmk4YhWtb
-        server-dir : public_html/
+        server-dir: public_html/

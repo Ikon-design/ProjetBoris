@@ -11,6 +11,7 @@ function lancezMoi(){
     container.style.textAlign = tablele[matchrer]
     console.log("Rotate(" + Math.floor(Math.random() * 360) + "deg)")
     rick.style.transform = "Rotate(" + Math.floor(Math.random() * 360) + "deg)"
+    text.style.fontSize = Math.floor(Math.random() * 250) + "px"
 
 }
 
